@@ -12,6 +12,13 @@ import global from './global';
   @public
 */
 export const ENV = {
+  /**
+    Determines whether ember-data should enable the legacy `filter` feature.
+    This feature is deprecated and support (along with this flag) should be
+    removed in 3.5
+  */
+  ENABLE_DS_FILTER: false,
+
   ENABLE_OPTIONAL_FEATURES: false,
 
   /**
